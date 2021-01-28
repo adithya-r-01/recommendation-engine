@@ -47,7 +47,7 @@ Additionally, it would be beneficial to use intellij as the IDE to open this pro
 The driver.java has the main method which runs the program. The configuration option are as follows:
 
 ```java
-\\ The first parameter in the ThresholdUserNeighborhood constructor is the similarity threshold
+// The first parameter in the ThresholdUserNeighborhood constructor is the similarity threshold
 UserNeighborhood neighborhood = new ThresholdUserNeighborhood(0.0,similarity, model);
 ```
 
@@ -55,6 +55,14 @@ UserNeighborhood neighborhood = new ThresholdUserNeighborhood(0.0,similarity, mo
 // The First argument is the userID and the Second parameter is 'HOW MANY'
                 List<RecommendedItem> recommendations = recommender.recommend(2, 2);
 ```
+
+The output will be printed to the system in the form of:
+
+```bash
+RecommendedItem[item:12, value:4.857143]
+RecommendedItem[item:14, value:3.357143]
+```
+
 
 
 
