@@ -30,29 +30,31 @@ Additionally, it would be beneficial to use intellij as the IDE to open this pro
 
 ## File Structure
 
-**.idea**
+**.idea** - A folder specific to my IDE (ignore)
 
-A folder specific to my IDE (ignore)
+**src** - Source code directory
 
-**src**
+**target** - Compiler output (ignore)
 
-Source code directory
+**gitattributes** - Ignore
 
-**target**
+**dataset.csv** - The dataset which is a csv file created by python script reading a mySQL table
 
-Compiler output (ignore)
+**pom.xml** - Maven specfic file (ignore)
 
-**gitattributes**
+## How To Run
 
-Ignore
+The driver.java has the main method which runs the program. The configuration option are as follows:
 
-**dataset.csv**
+```java
+\\ The first parameter in the ThresholdUserNeighborhood constructor is the similarity threshold
+UserNeighborhood neighborhood = new ThresholdUserNeighborhood(0.0,similarity, model);
+```
 
-The dataset which is a csv file created by python script reading a mySQL table
-
-**pom.xml**
-
-Maven specfic file (ignore)
+```java
+// The First argument is the userID and the Second parameter is 'HOW MANY'
+                List<RecommendedItem> recommendations = recommender.recommend(2, 2);
+```
 
 
 
