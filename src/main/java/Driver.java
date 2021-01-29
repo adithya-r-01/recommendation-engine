@@ -46,18 +46,4 @@ public class Driver {
 
         }
 
-        private static void getAllFiles(File curDir) {
-
-            File[] filesList = curDir.listFiles();
-            for(File f : filesList){
-                if(f.isDirectory())
-
-                    System.out.println(f.getName());
-                if(f.isFile()){
-                    System.out.println(f.getName());
-                }
-            }
-
-    }
-
 }
