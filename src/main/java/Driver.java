@@ -41,7 +41,7 @@ public class Driver {
                     System.out.println(recommendation);
                 }
             } catch (Exception e) {
-                System.out.println("Exception occured !");
+                System.out.println("Exception occurred!");
             }
 
         }
