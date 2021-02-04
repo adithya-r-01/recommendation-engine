@@ -55,10 +55,21 @@ UserNeighborhood neighborhood = new ThresholdUserNeighborhood(0.0,similarity, mo
 // The First argument is the userID and the Second parameter is 'HOW MANY'
                 List<RecommendedItem> recommendations = recommender.recommend(2, 2);
 ```
+
+### User-Based Recommendation
+
 To leverage these three parameters use the command line interface. The first parameter is the threshold, the second parameter is the user_id, and the third parameter is the count:
 
 ```bash
 java Driver 0.0 2 2
+```
+
+### Popularity Recommendation
+
+Sometimes it becomes neccesary to get the top N popular prompts. To request this via the CLI the first paramater is the threshold and the second parameter is the count:
+
+```bash
+java Driver 0.0 1
 ```
 
 
