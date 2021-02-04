@@ -48,8 +48,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Popularity">
+    <configuration name="Popularity" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Driver" />
+      <module name="cueback_recommender" />
+      <option name="PROGRAM_PARAMETERS" value="0.0 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User Recc" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Driver" />
       <module name="cueback_recommender" />
       <option name="PROGRAM_PARAMETERS" value="0.0 2 2" />
@@ -57,9 +65,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Popularity" />
+      <item itemvalue="Application.User Recc" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Driver" />
+        <item itemvalue="Application.User Recc" />
       </list>
     </recent_temporary>
   </component>
@@ -83,6 +95,7 @@
       <workItem from="1611877587981" duration="615000" />
       <workItem from="1611883790442" duration="732000" />
       <workItem from="1612226782379" duration="210000" />
+      <workItem from="1612393574553" duration="6357000" />
     </task>
     <servers />
   </component>
