@@ -42,7 +42,7 @@ Additionally, it would be beneficial to use intellij as the IDE to open this pro
 
 **pom.xml** - Maven specfic file (ignore)
 
-## How To Run
+## Configuration Options
 
 The driver.java has the main method which runs the program. The configuration option are as follows:
 
@@ -53,7 +53,7 @@ UserNeighborhood neighborhood = new ThresholdUserNeighborhood(0.0,similarity, mo
 
 ```java
 // The First argument is the userID and the Second parameter is 'HOW MANY'
-                List<RecommendedItem> recommendations = recommender.recommend(2, 2);
+List<RecommendedItem> recommendations = recommender.recommend(2, 2);
 ```
 
 ### User-Based Recommendation
