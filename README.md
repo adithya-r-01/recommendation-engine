@@ -1,4 +1,4 @@
-# CueBack Recommender
+# Java Recommender
 
 A project built on top of Java frameworks utilizing User-Based collabarative filtering techniques. This project specifically utilizes Manhattan Distance to create efficient recommendations.
 
