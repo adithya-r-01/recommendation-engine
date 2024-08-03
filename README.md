@@ -30,17 +30,17 @@ Additionally, it would be beneficial to use intellij as the IDE to open this pro
 
 ## File Structure
 
-**.idea** - A folder specific to my IDE (ignore)
+`.idea` - A folder specific to my IDE (ignore)
 
-**src** - Source code directory
+`src` - Source code directory
 
-**target** - Compiler output (ignore)
+`target` - Compiler output (ignore)
 
-**gitattributes** - Ignore
+`gitattributes` - Ignore
 
-**dataset.csv** - The dataset which is a csv file created by python script reading a mySQL table
+`dataset.csv` - The dataset which is a csv file created by python script reading a mySQL table
 
-**pom.xml** - Maven specfic file (ignore)
+`pom.xml` - Maven specfic file (ignore)
 
 ## Configuration Options
 
