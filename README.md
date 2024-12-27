@@ -4,9 +4,9 @@ A project built on top of Java frameworks utilizing User-Based collabarative fil
 
 ## Requirements
  
-This project is built with Java and utilizes Apache Maven. Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information (the pom.xml file). This provides the same functionality as using packages. Much like when using the ArrayList structure in Java you don't necessarily need to provide the source code.
+This project is built with `Java` and utilizes Apache Maven. Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information (the `pom.xml` file). 
 
-The java version that I am using:
+`Java` Requirements:
 
 ```bash
 openjdk version "15.0.2" 2021-01-19
@@ -14,7 +14,7 @@ OpenJDK Runtime Environment (build 15.0.2+7-27)
 OpenJDK 64-Bit Server VM (build 15.0.2+7-27, mixed mode, sharing)
 ```
 
-The maven build that I am using:
+`Maven` Requirements:
 
 ```bash
 Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
@@ -23,10 +23,6 @@ Java version: 15.0.2, vendor: Oracle Corporation, runtime: /Library/Java/JavaVir
 Default locale: en_US, platform encoding: UTF-8
 OS name: "mac os x", version: "10.16", arch: "x86_64", family: "mac"
 ```
-
-For information. about how to install maven: https://maven.apache.org/
-
-Additionally, it would be beneficial to use intellij as the IDE to open this project's source code as it has the best support for maven projects.
 
 ## File Structure
 
@@ -44,7 +40,7 @@ Additionally, it would be beneficial to use intellij as the IDE to open this pro
 
 ## Configuration Options
 
-The driver.java has the main method which runs the program. The configuration option are as follows:
+`driver.java` has the main method which runs the program. The configuration option are as follows:
 
 ```java
 // The first parameter in the ThresholdUserNeighborhood constructor is the similarity threshold
