@@ -1,6 +1,8 @@
-# Java Recommender
+<h1 align="center" style="border-bottom: none">
+    <a href="https://prometheus.io" target="_blank"><img alt="Prometheus" src="./.assets/heading-image.svg"></a><br>Recommendation Engine
+</h1>
 
-A project built on top of Java frameworks utilizing User-Based collabarative filtering techniques. This project specifically utilizes Manhattan Distance to create efficient recommendations.
+> A project built on top of `Java` frameworks utilizing User-Based collabarative filtering techniques. This project specifically utilizes Manhattan Distance to create efficient recommendations.
 
 ## Requirements
  
