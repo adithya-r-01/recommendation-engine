@@ -4,6 +4,9 @@
 
 > A project built on top of `Java` frameworks utilizing User-Based collabarative filtering techniques. This project specifically utilizes Manhattan Distance to create efficient recommendations.
 
+- [Requirements](https://github.com/adithya-r-01/recommendation-engine/tree/main?tab=readme-ov-file#requirements)
+- [Configuration](https://github.com/adithya-r-01/recommendation-engine/tree/main?tab=readme-ov-file#configuration)
+
 ## Requirements
  
 This project is built with `Java` and utilizes Apache Maven. Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information (the `pom.xml` file). 
@@ -26,21 +29,7 @@ Default locale: en_US, platform encoding: UTF-8
 OS name: "mac os x", version: "10.16", arch: "x86_64", family: "mac"
 ```
 
-## File Structure
-
-`.idea` - A folder specific to my IDE (ignore)
-
-`src` - Source code directory
-
-`target` - Compiler output (ignore)
-
-`gitattributes` - Ignore
-
-`dataset.csv` - The dataset which is a csv file created by python script reading a mySQL table
-
-`pom.xml` - Maven specfic file (ignore)
-
-## Configuration Options
+## Configuration
 
 `driver.java` has the main method which runs the program. The configuration option are as follows:
 
@@ -70,7 +59,6 @@ Sometimes it becomes neccesary to get the top N popular prompts. To request this
 java Driver 0.0 1
 ```
 
-
 The output will be printed to the system in the form of:
 
 ```bash
@@ -78,6 +66,7 @@ RecommendedItem[item:12, value:4.857143]
 RecommendedItem[item:14, value:3.357143]
 ```
 
+The dataset that the recommendations are built off of can be found in the `dataset.csv` file.
 
 
 
